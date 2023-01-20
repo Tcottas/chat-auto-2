@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+	<title>Chatbox</title>
+</head>
+<body>
+    <div class="main">
+        <div class="upper_section">
+            <img id="upper_bg" src="img/cloudy-sky-dawn.jpg">
+        </div>
+        <div class="profile">
+            <i class='bx bxs-user' id="user" ></i>
+            <h1>User name</h1>
+        </div>
+        <div class="middle_info"></div>
+            <div class="menu1">
+                <p>Como você se sente hoje?</p>
+            </div>
+
+            <div class="menu3">
+                <div class="post3">
+                    <i class='bx bx-happy-beaming' ></i>
+                </div>
+                <div class="post3">
+                    <i class='bx bx-angry'></i>
+                </div>
+                <div class="post3">
+                    <i class='bx bx-happy-beaming'></i>
+                </div>
+                <div class="post3">
+                    <i class='bx bx-wink-tongue' ></i>
+                </div>
+                <div class="post3">
+                    <i class='bx bx-cool'></i>
+                </div>
+                <div class="post3">
+                    <i class='bx bx-sleepy'></i>
+                </div>
+                <div class="post3">
+                    <i class='bx bx-happy-heart-eyes'></i>
+                </div>
+                <div class="post3">
+                    <i class='bx bx-shocked'></i>
+                </div>
+                <div class="post3">
+                    <i class='bx bx-wink-tongue' style="font-size: 50px;" ></i>
+                </div>
+            </div>
+
+            <div class="menu2">
+                <button>Horários</button>
+                <button>Jogos</button>
+                <button>Merenda</button>
+                <button>Botão</button>
+                <button>Botão</button>
+                <button>Botão</button>
+            </div>
+
+        <div class="lower_section">
+
+            <div class="lower_bar">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAT5JREFUWEft11ENAjEMBuD/FIADwAE4AAVYQAIOCE7AAQ7AAeAACaAAUrIlY9e7desuWcju9Ub70TXrrUFhT1OYB38JmgM4m0qvANw0VddWyGLGBvEEoEJpQD7GFkaFSgX5mJfRjLSVSgFxmKWBXACoULGgLoxtZHqvQsWAQhjbQyqUFCTFqFESUCxGhQqBUjHJqD6QFpOE6gLlwkSjOBB3Ai+0MwoAxb06c4490X1Q1zgI9Zp0nr69hS2Un+gBYMJEHwpEqSjnzOYsAXQ32/k1+aApgI3R7pxKDVGhvYl/MFViQe5uufs9BIiN2ZeogrgeqlvmHzG1h0JHSa3Q31ZIOs2l6+geZ2+7P7/p66ETgLU0Q+S6ozMzxSD6BzT46BJoL3+RednlhNkCoG+h1pNraOaABqd9tiQxgYqr0AcnVGklLiLhrwAAAABJRU5ErkJggg=="/>
+
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAhFJREFUWEftl/0xREEQxFsEhEAEiAARIAJEgAgQASIgA0SACBABIRAB9VO7VXN7+zXvjnqlzH9btTfTr6end25BI4uFkeHRnwK0JOlQ0qaktcD0s6QHSZeS3oewP5ShHUlXkgCVC8AcSLr1ghoC6FTSSWehM0nc7w4vIFrzZLK/hIK0iaB9AFg1d9Yl0cqu8AIicSx2J4nW5YJWbRtdAaorPICWJb2GrB+SOJeEi7beJC2G+yvh3ATlAQQbNyFjjZ1Y1LK02ytwDyAr5h6xeu9/f4gH0OgYshpCO+iipiH0Fn3qRzQEo3bK0AjaaE0Z1hCdfK6iJlnqQwBEK4+h0kY4WwA/6kPUHZVTR8oR+LXxmbQV+NR+76jbH3umLC2KYI8Kr/3Fb7/2TXEOvTCUIR5R3rTa+oHgo9i78XkA0Z49zwibxxW9sbQ1owcQhsgyBiuzBCsKSxuPbjFagJiU80xraAUtqTk1XoQv2WhukjVAMMMyZnXS86imX5/6FqAwyyxTNUBQHL8Q+4et7s0vQQVb6Cgud+TeyvWtBAgB06oYLvsvCCR9do4l4VcTUQJkH9EhbSqJ1raPGlOrbQnQp8nYEr538qq5c8UY7/tQhWmaddxTwFab6Cj+Y/m+lwNk9YOZcZ5noBv+8RJTOsoBGrQLOxBX85daFtsEnROUOgqXrpK7mH/egp0Z7z+gFoWjY+gLrcNtJQd+2ekAAAAASUVORK5CYII="/>
+
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAcpJREFUWEftl/8xBEEQhd9FQAaIABnIABEgAkSACBABIkAGMkAGQiAD9VXNqDE7P3pndquurq6r7o+rmn39zZue3t6FliwWS8ajlQS6k3TinH6UdNnjeq9DwJxHAPeSLlqhWoGunSvbmcRfkoAFblSMBdqT9CwpBxInB+xY0oeVagzQqaSHSPhH0luQEOADSRvRujNJ1Fc1rEAkeg/UAKFOckmA58hCsH2LUxagTQfjj+lT0pEkjqMUrH+RtOsWsR6o79JDFiCcuHUiOINbNRifEyjqxztFS8C5bFiASL7lFMy1EGQMaw+tnR6gsHZwh+NrCY7Ju1SspZpD4e5eXe20AFFLhxaXa0A0wCsndCOJ/y1h1lkDSSo6vXZo5RwKr+tUtwxNJoBklGqIF6efBHm4pUv7pPGkgDZ6g8gBxTBPkhDtiVgzCZUCinczBYzfSNX1FFDYVXteFzk3i3VZA2Ia5DdlMFHyIwYXpQY0JUhKywSUmp3nAuP6c4R/kXKImQdLmYXmDIa1wUxee5fNCZTUbgXCRXYYf+74JEyXzNPFgX5MY7Q4U6q15q7e6pAH5nMIMD+e0reoi3+FatmdX9MLNCaXae0aqGbTL5sTaSWDbHsSAAAAAElFTkSuQmCC"/>
+
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAmlJREFUWEftmOFxFDEMhd9VQKiApAJIBUkHQAVABZAKQiogVABUAHRAKiCpINABVEDmu7FuhM5ey3s3zE4G/dm5W9l6lp7l511pYbZaGB7dG0BPJL2QxPOgPEn2taRf5fmpPIeKMJqht5JeFxCZQIC7lHSRccYnC+iZpHeSDrMTB78fks4kfemNzwAiK+dhop9l8m+SCEapMEoI6FNJLOJRGMdck9nqAfpYuGLzAoRJ+T9jL4u/B8bYV63BU4BiZr5KIgC8GDFID4inbhBZYv4tawEi3Z+dNzsGMLtYzPbzGqdagOCFpZnMALBl8OWkvLySBK9aBqktU8Q4io41QL5UcAaiTpXJ+zdLUQJTPoA8KL+3/GuACG4DIF+PwCOAwEHpPxRAxHrosxQBkY3vxYHsZPrOKCCm95Q49h09AqKr0omx95LeJFg8B1AzTgQEIY2g1V1QATgHkN/FbAQ2xtoiIDru4/Lur1SWQQbW42Iym5AF1XZZ3H2eGsQkVhXQHxcpgq0dIYmKrl1qu68aKwZdHKBeyTa1dqnJNMZYSl+yG6entji0OFIvbtv7VFbPmj1t+3RjJN6/PDp+RzncO1xZCT1in4frrQOROlzjWYNkoGu3LNMYbayXH9WzMivQJmVnsjvuJNCIETszq0OOzJGwyA0v8oYlrC06rgpOARRJmzG0D9cnhJnZpBzu3TpqmTKOkTEaKVzw1yCkr12Dop7qKcqhiyJNM96zMlnCB9Boq71cFH1QysXEJnF7gOgzLKR65akNzpSsNo6ODj/sY4NpKA5K+9gA/6yUPeCb93MBpQOMOv4H1MvYHYPjoiWLe0qnAAAAAElFTkSuQmCC"/>
+
+                <div class="chatbox-wrapper">
+                    <div class="chatbox-toggle">
+                        <i class='bx bx-message-dots'></i>
+                    </div>
+                    <div class="chatbox-message-wrapper">
+                        <div class="chatbox-message-header">
+                            <div class="chatbox-message-profile">
+                                <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" class="chatbox-message-image">
+                                <div>
+                                    <h4 class="chatbox-message-name">Psicólogo</h4>
+                                    <p class="chatbox-message-status">online</p>
+                                </div>
+                            </div>
+                            <div class="chatbox-message-dropdown">
+                                <i class='bx bx-dots-vertical-rounded chatbox-message-dropdown-toggle'></i>
+                                <ul class="chatbox-message-dropdown-menu">
+                                    <li>
+                                        <a href="#">Search</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Report</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="chatbox-message-content">
+                            <h4 class="chatbox-message-no-message">Você não tem mensagens</h4>
+                            <!-- <div class="chatbox-message-item sent">
+                                <span class="chatbox-message-item-text">
+                                    Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Quod, fugiat?
+                                </span>
+                                <span class="chatbox-message-item-time">08:30</span>
+                            </div>
+                            <div class="chatbox-message-item received">
+                                <span class="chatbox-message-item-text">
+                                    Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Quod, fugiat?
+                                </span>
+                                <span class="chatbox-message-item-time">08:30</span>
+                            </div> -->
+                        </div>
+                        <div class="chatbox-message-bottom">
+                            <form action="#" class="chatbox-message-form">
+                                <textarea rows="1" placeholder="Escreva sua mensagem" class="chatbox-message-input"></textarea>
+                                <button type="submit" class="chatbox-message-submit"><i class='bx bx-send' ></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
